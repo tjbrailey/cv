@@ -1,18 +1,20 @@
 ---
-name: Mitchell O'Hara-Wild
+name: Thomas J. Brailey
 date: "`r format(Sys.time(), '%B, %Y')`"
-qualifications: BCom(Hons), BSc
-position: Data Scientist
-address: Melbourne, Australia
-email: mail@mitchelloharawild.com
-website: mitchelloharawild.com
-github: mitchelloharawild
-linkedin: mitchelloharawild
-twitter: mitchoharawild
+qualifications: Bachelor of Scicnce
+position: MPhil in Politics
+address: Oxford, United Kingdom
+email: thomasjbrailey@gmail.com
+website: https://tjbrailey.netlify.app/
+github: tjbrailey
+linkedin: tjbrailey
+twitter: tjbrailey
 headcolor: "414141"
 output: 
   vitae::awesomecv:
     keep_tex: true
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = here::here("../", "Website", "public", "thomas_brailey_cv.pdf")) })
 ---
 
 ```{r setup, include=FALSE}
@@ -21,48 +23,182 @@ library(vitae)
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# Current employment
-
-```{r consulting}
-tribble(
-  ~ role, ~ company, ~ loc, ~ dates, ~ details,
-  "Data science consultant", "Nectric", "Melbourne, Australia", "Jan. 2019 - Present", 
-    list("Data science consulting projects including spatio-temporal modelling, and large scale forecasting.",
-         "Hosting workshops improving data literacy, development, analysis and modelling capabilities."
-    ),
-  "Research assistant", "Monash University", "Clayton, Australia", "Oct. 2015 - Present", 
-    list("Involved in many internal and external data projects of varying size and complexity.", 
-         "Projects typically feature large scale time series modelling or analysis, cross-sectional modelling and creating tools for improving workflows.",
-         "Consulting project clients include: COVID-19 Doherty Institute, Huawei, Monash University, R Consortium, and the NSW Chief Scientist office.",
-         "Developer for The R Journal, producing software for managing submitted articles and publishing them in both interactive HTML and static PDF."),
-  "Teaching Associate", "Monash University", "Clayton, Australia", "Mar. 2016 - Present", "Sessional teaching of university students undertaking Bachelor's and Master's degrees."
-  # "Data mining intern", "iSelect", "Cheltenham, Australia", "Feb. 2015 - Mar. 2015", "Improved business reporting with interactive visualisations, and model-based anomaly detection.",
-) %>% 
-  detailed_entries(role, dates, company, loc, details)
-```
-
 # Education
 
 ```{r education}
 tribble(
-  ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
-  "PhD in Econometrics", "Monash University", "Clayton, Australia", "Feb. 2023 - Present", 
-    list("Recipient of the Monash Graduate Excellence Scholarship.",
-         "Research in forecast reconciliation and the design of statistical software for forecasting."),
-  "BCom (Hons) in Econometrics", "Monash University", "Clayton, Australia", "Mar. 2017 - Nov. 2017", 
-    list("Recipient of the Econometrics Honours Memorial Scholarship, Dean's Honour, Dean's Commendation, and best in class for 5 units.",
-         "Honours research project was to develop a state space model for quickly forecasting time series with multiple seasonalities.",
-         "Studied units include Bayesian and frequentist econometrics, advanced statistical modelling and computational science."),
-  "BCom in Econometrics, BSc in Mathematical statistics and Computational Science", "Monash University", "Clayton, Australia", "Mar. 2013 - Nov. 2016", 
-    list("Recipient of the Monash Community Leaders Scholarship, International Institute of Forecasters Award, and best in class for 4 units.",
-         "Mentor for the Access Monash Ambassador Program (2015 and 2016)",
-         "Participant of the Vice-Chancellor's Ancora Imparo Student Leadership Program (2014)",
-         "Studied a broad range of units covering many aspects of data science. The three disciplines I majored in explored different perspectives for working with data.")
-) %>% 
-  detailed_entries(degree, dates, uni, loc, details)
+  ~ degree, ~ uni, ~ loc, ~ dates,
+  "MPhil, Comparative Government", 
+  "University of Oxford",
+  "Oxford, United Kingdom", 
+  "2022-2024",
+  "Bachelor of Science, Political Science/Data Analytics",
+  "University of California, San Diego",
+  "San Diego, United States", 
+  "2016-2020") %>% 
+  detailed_entries(degree, dates, uni, loc)
 ```
 
-# Teaching experience
+# Research Experience
+
+```{r consulting}
+tribble(
+  ~ role, ~ company, ~ loc, ~ dates, ~ details,
+  "Research Assistant", 
+  "University of Oxford", 
+  "Oxford, United Kingdom", 
+  "2022-Present", 
+    list(
+      "Co-authoring research with the Departments of Sociology and of Politics and International Relations.",
+      "Conducting data cleaning, exploratory data analysis, and testing theoretical mechanisms with data.",
+      "Transferring codebases to version-controlled GitHub setup."),
+  "Pre-Doctoral Fellow", 
+  "Payments and Governance Research Program", 
+  "San Diego, United States", 
+  "2020-2022", 
+  list(
+      "Conducted exploratory data analysis and data visualization across several research projects.",
+      "Coordinated the transition of all code to GitHub and introducing RAs/GSRs to version control.",
+      "Edited manuscripts and preparing presentations for government leaders and other stakeholders."),
+  "Research Assistant", 
+  "Center for the Study of African Political Economy", 
+  "San Diego, United States", 
+  "2018-2020", 
+  list(
+    "Independently developed a large-N database of election statistics across all recognized states.",
+    "Used R to combine and reshape multiple datasets, visualize the data, and perform statistical analysis.",
+    "Manually inputted missing data from newspapers and reports to ensure completeness of data."),
+  "Research/Lab Assistant", 
+  "Center for Peace and Security Studies", 
+  "San Diego, United States", 
+  "2018-2020", 
+  list(
+    "Used R to conduct quantitative analyses on large-N datasets.",
+    "Generated graphs, tables, and figures in R and LaTeX for research papers and conference presentations.",
+    "Wrote briefs on my data analysis and code and presented findings.")) %>% 
+  detailed_entries(role, dates, company, loc, details)
+```
+
+## Publications-As Author
+
+```{r}
+bibliography_entries("pubs_author.bib")
+```
+
+## Publications-As Research Assistant
+
+```{r}
+bibliography_entries("pubs_ra.bib")
+```
+
+# Conference Invites
+
+```{r talks}
+tribble(
+  ~ when, ~ details, ~ where,
+  "2024", "Midwestern Political Science Association", "Chicago",
+  "2023", "Political Science Association", "Virtual",
+  "2021", "American Political Science Association", "Virtual",
+  "2021", "International Studies Association", "Virtual",   
+  "2020", "Midwestern Political Science Association", "Chicago, cancelled", 
+  "2020", "International Studies Association", "Honolulu, cancelled",
+  "2019", "Souther California Research Conference", "San Diego",
+  "2019", "Western Political Science Association", "San Diego") %>% 
+  brief_entries(details, when, where)
+```
+
+# Scholarship and Awards
+
+```{r}
+tribble(
+  ~ award, ~ from, ~ year,
+  "Cyril Foster Award", "University of Oxford", "2024",
+  "Research Grant", "University of Oxford", "2023",
+  "Clarendon Scholarship", "University of Oxford", "2022-2024",
+  "Catalyst Grant", "Berkeley Institute for Transparency in the Social Sciences", "2021",
+  "Sanford Lakoff Award for the Most Outstanding Thesis", "UC San Diego", "2020",
+  "Pi Sigma Alpha", "UC San Diego", "2017-2020",
+  "Provost Honors", "UC San Diego", "2016-2020",
+  "Outstanding Resident", "UC San Diego", "2017") %>%
+  brief_entries(award, year, from)
+```
+
+# Volunteer Experience
+
+```{r}
+tribble(
+  ~ what,
+  "Volunteer data scientist for DataKind UK",
+  "Co-found of the Political Science Student Association at UCSD",
+  "Employment Assistant at the International Rescue Committee",
+  "Tutor for San Diego's Refugee Tutoring Program") %>%
+  brief_entries(what) 
+```
+
+# Training and Skills
+## Training
+
+```{r}
+tribble(
+  ~ what,
+  "Oxford Spring School for Advanced Research Methods (Qualitative Methods, 2024)",
+  "European Consortium for Political Research (Bayesian Statistics, 2023)",
+  "Oxford Spring School for Advanced Research Methods (Machine Learning, 2023)") %>%
+  brief_entries(what)
+```
+## Skills
+### Spoken Languages
+
+```{r}
+tribble(
+  ~ what,
+  "English (Native), French (Beginner), Arabic (Beginner)") %>%
+  brief_entries(what)
+```
+
+### Technical Languages
+
+```{r}
+tribble(
+  ~ what,
+  "Proficient: ArcGIS, Git, Latex, R, SPSS, STATA",
+  "Beginner: Python, SQL, Tableau, Stan, Julia") %>%
+  brief_entries(what)
+```
+
+### Softwares
+
+```{r}
+tribble(
+  ~ what,
+  "Amazon Web Services, Microsoft Office") %>%
+  brief_entries(what)
+```
+
+<!--## Scholarships
+```{r}
+tribble(
+  ~ scholarship, ~ from, ~ year,
+  "Monash Graduate Excellence Scholarship", "Monash", "2023-2026",
+  "Econometrics Honours Memorial Scholarship", "Monash", "2017",
+  "Monash Community Leaders Scholarship", "Monash", "2015 & 2016",
+  "Mitcham Rotary Scholarship", "Rotary", "2011 & 2012"
+) %>%
+  brief_entries(scholarship, year, from)
+```
+
+## Competitions
+```{r}
+tribble(
+  ~ competition, ~ from, ~ year,
+  "UseR! 2018 Datathon Champion", "UseR!", "2018",
+  "RMIT SBITL Analytics Competition Champion", "RMIT", "2017",
+  "RMIT SBITL Analytics Competition Champion", "RMIT", "2016"
+) %>%
+  brief_entries(competition, year, from)
+```
+
+<!--# Teaching experience
 
 ## University Tutoring
 
@@ -92,7 +228,7 @@ My teaching quality at Monash University has been consistently recognised with p
 <!--   brief_entries(glue::glue("\\textbf{<code>}: <title> (Monash <campus>)", .open = "<", .close = ">"), semester, .protect = FALSE) -->
 <!-- ``` -->
 
-\newpage
+<!--\newpage
 
 ## Industry Workshops
 
@@ -109,7 +245,7 @@ tribble(
   "Instructor", "Interactive documents with Shiny", "CSIRO", "Australia", "Nov. 2019", "Two day intermediate workshop on developing of shiny applications.",
   "Instructor", "Data Wrangling", "Monash University", "Australia", "Sep. 2019", "A short workshop in the 'R Workshops for Beginners' series on using tidyr and dplyr to wrangle data.",
   "Helper", "Tidyverse developer day", "RStudio", "France", "Jul. 2019", "A one day developer day where I helped R users resolve issues on tidyverse packages.",
-  "Teaching assistant", "High-dimensional time series analysis", "ISI WSC", "Malaysia", "Aug. 2019", "One day short course with Rob Hyndman for analysing and forecasting large collections of time series.",
+  "Teaching assistant", "High-dimensional time series analysis", "ISI WSC", "Malaysia", "Aug. 2019", "One day short course with Rob Hyndman for analysing and forecasting large collections of time series."
   # "Instructor", "The grammar of animation", "Monash University", "Australia", "Mar. 2019", "A short workshop for NUMBAT group on creating animated graphics in R with the gganimate package.",
   # "Teaching assistant", "Master R Developer Workshop", "RStudio", "Australia", "Dec. 2016", "A two day workshop with Hadley Wicham on programming with R and developing R packages.",
 ) %>% 
@@ -151,31 +287,6 @@ tribble(
 
 <!-- fasster, taipan, fable -->
 
-## Presentations
-
-```{r talks}
-tribble(
-  ~ when, ~ title, ~ details, ~ where, ~ url,
-  "2023", "From forecast to fable, design decisions for statistical software", "A comparison of the design differences between forecast and fable.", "NYR", "https://slides.mitchelloharawild.com/nyr2023/",
-  "2023", "Reconciliation of structured time series forecasts with graphs", "Reconciling forecasts with graph constraints.", "ISF", "https://slides.mitchelloharawild.com/reconciling-graphs/",
-  "2023", "The design of statistical software", "Discussion about design principles of user interfaces for statistics.", "NUMBAT Seminar", "https://slides.mitchelloharawild.com/statistical-software-design/",
-  "2020", "Forecasting with multiple seasonality", "Methods and techniques to multiple seasonal forecasting in R", "UK NHS", "https://slides.mitchelloharawild.com/nhs2020/",
-  "2020", "Probabilistic cross-temporal hierarchies", "Recent developments of temporal reconciliation in fable.", "ISF", "https://slides.mitchelloharawild.com/isf2020/",
-  "2019", "Flexible futures for fable functionality", "Gradual introduction to tidy forecasting with fable. Flexibility is demonstrated with combination modelling and package extensibilitiy.", "MelbURN meetup", "https://slides.mitchelloharawild.com/fable-tfeam/",
-  "2019", "Flexible futures for fable functionality", "Reconciled forecasting of many time series with model combinations.", "ISF", "https://slides.mitchelloharawild.com/isf2019/",
-  "2018", "Tidy forecasting in R", "Discussion of recent developments to the fable framework.", "MelbURN meetup", "https://slides.mitchelloharawild.com/fable-tfeam/",
-  "2018", "Forecasting multiple seasonality with state switching", "The FASSTER model with the fable framework.", "useR!", "https://slides.mitchelloharawild.com/user2018",
-  "2017", "Models for forecasting multiple seasonality", "An introduction to the FASSTER model.", "MelbURN meetup", "https://slides.mitchelloharawild.com/melburn17/",
-) %>% 
-  brief_entries(glue::glue("\\textbf{<title>}: <details> \\newline \\url{<url>}", .open = "<", .close = ">"), when, .protect = FALSE)
-```
-
-## Publications
-
-```{r}
-bibliography_entries("publications.bib")
-```
-
 <!-- # Data analysis projects -->
 
 <!-- # Related interests -->
@@ -191,43 +302,6 @@ bibliography_entries("publications.bib")
 <!-- cvskill("Programming", c("R", "Python", "SQL", "Java", "C", "C++", "HTML/CSS", "TeX", "MATLAB")) -->
 <!-- ``` -->
 
-\newpage
+<!--\newpage
 
-# Awards & Achievements
-## Awards
-```{r}
-tribble(
-  ~ award, ~ from, ~ year,
-  "Student Presentation Award", "ISF", "2023",
-  "Dean's Citation for Outstanding Contribution to Student Learning as a Teaching Associate", "Monash", "2021",
-  "Commerce Dean's Honour", "Monash", "2017",
-  "Commerce Dean's Commendation", "Monash", "2016",
-  "Science Dean’s List", "Monash", "2014-2016",
-  "International Institute of Forecasters Award", "IIF", "2014",
-  "Rotary Youth Leadership Award", "Rotary", "2013"
-) %>%
-  brief_entries(award, year, from)
-```
-
-## Scholarships
-```{r}
-tribble(
-  ~ scholarship, ~ from, ~ year,
-  "Monash Graduate Excellence Scholarship", "Monash", "2023 - 2026",
-  "Econometrics Honours Memorial Scholarship", "Monash", "2017",
-  "Monash Community Leaders Scholarship", "Monash", "2015 & 2016",
-  "Mitcham Rotary Scholarship", "Rotary", "2011 & 2012"
-) %>%
-  brief_entries(scholarship, year, from)
-```
-
-## Competitions
-```{r}
-tribble(
-  ~ competition, ~ from, ~ year,
-  "UseR! 2018 Datathon Champion", "UseR!", "2018",
-  "RMIT SBITL Analytics Competition Champion", "RMIT", "2017",
-  "RMIT SBITL Analytics Competition Champion", "RMIT", "2016"
-) %>%
-  brief_entries(competition, year, from)
-```
+--> 
