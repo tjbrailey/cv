@@ -1,0 +1,161 @@
+---
+title: CV
+format:
+  quarto-cv-pdf: default
+author: Thomas J. Brailey
+date: last-modified
+#phone: +44 (0)7786 345 443 // +1 858 610 2437
+#address: "Nuffield College New Road, Oxford, OX1 1NF"
+email: thomasjbrailey@gmail.com
+fontsize: 11pt
+#fontfamily: ebgaramond-maths # default font LaTeX package https://tug.org/FontCatalogue/about.html
+#mainfont: Ubuntu # if you want to use a different locally installed font
+#CJKmainfont: Noto Sans CJK JP # locally installed Asian character font, must use with xelatex
+github: tjbrailey # github account
+#orcid: 0000-0001-8538-8697 # orcid identifier
+#osf: c9ptf # osf five character id
+#twitter: twitter # twitter handle
+web: tjbrailey.netlify.app
+fontawesome: yes
+nocite: '@*'
+bibliography: 
+  self: self_pubs.bib
+  ra: ra_pubs.bib
+  other: other_pubs.bib
+validate-yaml: false
+csl: apa-cv.csl
+---
+
+# Education
+
+*University of Oxford*, PhD, Politics \hfill 2024-Present
+
+*University of Oxford*, MPhil, Comparative Government \hfill 2022-2024
+
+*University of California, San Diego*, B.S., Data Analytics/Political Science \hfill 2016-2020
+
+# Employment
+
+*University of Oxford*
+
+&nbsp;&nbsp; Research Assistant \hfill 2022-Present
+
+*Payments and Governance Research Program*
+
+&nbsp;&nbsp; Pre-Doctoral Fellow \hfill 2020-2022
+
+*Center for the Study of African Political Economy*
+
+&nbsp;&nbsp; Research Assistant \hfill 2018-2020
+
+*Center for Peace and Security Studies*
+
+&nbsp;&nbsp; Lab Assistant \hfill 2019-2020
+
+&nbsp;&nbsp; Research Assistant \hfill 2018-2019
+
+# Publications as (co-) author
+
+::: {#refs-self}
+:::
+
+# Other publications
+
+::: {#refs-other}
+:::
+
+# Publications as RA
+
+::: {#refs-ra}
+:::
+
+# Teaching Experience
+
+Politics of Sub-Saharan Africa [[Syllabus](https://www.dropbox.com/scl/fi/kdpz9gtizl9kawvx6ofcc/2025TT_pssa_syllabus.pdf?rlkey=9f8o4wifurtrib32oxmjdtffi&dl=0)] (University of Oxford, 2025)
+
+# Conference Invites
+
+European Political Science Association (Madrid, 2025).
+
+Midwestern Political Science Association (Chicago, 2025).
+
+Midwestern Political Science Association (Chicago, 2024).
+
+Political Studies Association (Virtual, 2023).
+
+American Political Science Association (Virtual, 2021).
+
+International Studies Association (Virtual, 2021).
+
+Midwestern Political Science Association (Chicago, 2020, cancelled due to COVID-19).
+
+International Studies Association (Honolulu, 2020, cancelled due to COVID-19).
+
+Southern California Research Conference (San Diego, 2019).
+
+Western Political Science Association (San Diego, 2019).
+
+# Awards and Scholarships
+
+Grand Union DTP Scholar 2024-2027 (Economic and Social Research Council).
+
+Event Participant Grant 2024 (European Consortium for Political Research).
+
+Cyril Foster Award 2024 (University of Oxford).
+
+Merton College Research Grant 2023 (University of Oxford).
+
+Clarendon Scholar 2022-2024 (University of Oxford).
+
+BITSS Catalyst Grant Awardee 2021 (BITSS).
+
+Sanford Lakoff Award for the Most Outstanding Senior Thesis 2020 (UC San Diego).
+
+Pi Sigma Alpha 2017-2020 (UC San Diego).
+
+Provost Honors 2016-2020 (UC San Diego).
+
+Ernest C. Mort Leadership Excellence Award 2018 (UC San Diego).
+
+Outstanding Resident 2017 (UC San Diego).
+
+
+# Service
+
+Journal reviewer: *Journal of Conflict Resolution,* 2025.
+
+Conference/workshop chair: *MPSA,* 2025.
+
+Conference/workshop discussant: *T.E. Lawrence Program on the Study of Conflict,* 2023-2025. *MPSA,* 2025.
+
+Organiser: *I4R Oxford Replication Games,* 2024.
+
+# Training
+
+European Consortium for Political Research (Social Network Analysis, 2024).
+
+Oxford Spring School for Advanced Research Methods (Qualitative Methods, 2024).
+
+European Consortium for Political Research (Bayesian Statistics, 2023).
+
+Oxford Spring School for Advanced Research Methods (Machine Learning, 2023).
+
+# Skills
+
+**Spoken languages**
+
+&nbsp;&nbsp; English (Native), French (Beginner), Arabic (Beginner).
+
+**Technical languages**
+
+&nbsp;&nbsp; *Proficient:* ArcGIS, Git, LATEX, R, SPSS, STATA, SQL.
+
+&nbsp;&nbsp; *Beginner:* Julia, Python, Stan, Tableau.
+
+**Infrastructures**
+
+&nbsp;&nbsp; Amazon Web Services, Microsoft Office, Google Suite.
+
+# References
+
+Available upon request.
