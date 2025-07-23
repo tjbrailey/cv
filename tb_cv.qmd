@@ -28,33 +28,33 @@ csl: apa-cv.csl
 
 # Education
 
-*University of Oxford*, PhD, Politics \hfill 2024-Present
+*University of Oxford*, PhD, Politics \hfill 2024-present
 
-*University of Oxford*, MPhil, Comparative Government \hfill 2022-2024
+*University of Oxford*, MPhil, Comparative Government (*with distinction*) \hfill 2022-2024
 
-*University of California, San Diego*, B.S., Data Analytics/Political Science \hfill 2016-2020
+*University of California, San Diego*, B.S., Data Analytics/Political Science (*summa cum laude*) \hfill 2016-2020
 
 # Employment
 
 *University of Oxford*
 
-&nbsp;&nbsp; Research Assistant \hfill 2022-Present
+&nbsp;&nbsp; Research assistant \hfill 2022-present
 
 *Payments and Governance Research Program*
 
-&nbsp;&nbsp; Pre-Doctoral Fellow \hfill 2020-2022
+&nbsp;&nbsp; Pre-doctoral fellow \hfill 2020-2022
 
 *Center for the Study of African Political Economy*
 
-&nbsp;&nbsp; Research Assistant \hfill 2018-2020
+&nbsp;&nbsp; Research assistant \hfill 2018-2020
 
 *Center for Peace and Security Studies*
 
-&nbsp;&nbsp; Lab Assistant \hfill 2019-2020
+&nbsp;&nbsp; Lab assistant \hfill 2019-2020
 
-&nbsp;&nbsp; Research Assistant \hfill 2018-2019
+&nbsp;&nbsp; Research assistant \hfill 2018-2019
 
-# Publications as (co-) author
+# Working papers as (co-) author
 
 ::: {#refs-self}
 :::
@@ -64,16 +64,16 @@ csl: apa-cv.csl
 ::: {#refs-other}
 :::
 
-# Publications as RA
+# Publications as research assistant
 
 ::: {#refs-ra}
 :::
 
-# Teaching Experience
+# Teaching experience
 
 Politics of Sub-Saharan Africa [[Syllabus](https://www.dropbox.com/scl/fi/kdpz9gtizl9kawvx6ofcc/2025TT_pssa_syllabus.pdf?rlkey=9f8o4wifurtrib32oxmjdtffi&dl=0)] (University of Oxford, 2025)
 
-# Conference Invites
+# Conference invites
 
 European Political Science Association (Madrid, 2025).
 
@@ -95,7 +95,7 @@ Southern California Research Conference (San Diego, 2019).
 
 Western Political Science Association (San Diego, 2019).
 
-# Awards and Scholarships
+# Awards and scholarships
 
 Grand Union DTP Scholar 2024-2027 (Economic and Social Research Council).
 
@@ -128,27 +128,27 @@ Conference/workshop chair: *MPSA,* 2025.
 
 Conference/workshop discussant: *T.E. Lawrence Program on the Study of Conflict,* 2023-2025. *MPSA,* 2025.
 
-Organiser: *I4R Oxford Replication Games,* 2024.
+Organizer: *I4R Oxford Replication Games,* 2024.
 
 # Training
 
-European Consortium for Political Research (Social Network Analysis, 2024).
+European Consortium for Political Research (Social network analysis, 2024).
 
-Oxford Spring School for Advanced Research Methods (Qualitative Methods, 2024).
+Oxford Spring School for Advanced Research Methods (Qualitative methods, 2024).
 
-European Consortium for Political Research (Bayesian Statistics, 2023).
+European Consortium for Political Research (Bayesian statistics, 2023).
 
-Oxford Spring School for Advanced Research Methods (Machine Learning, 2023).
+Oxford Spring School for Advanced Research Methods (Machine learning, 2023).
 
 # Skills
 
 **Spoken languages**
 
-&nbsp;&nbsp; English (Native), French (Beginner), Arabic (Beginner).
+&nbsp;&nbsp; English (native), French (beginner), Arabic (beginner).
 
 **Technical languages**
 
-&nbsp;&nbsp; *Proficient:* ArcGIS, Git, LATEX, R, SPSS, STATA, SQL.
+&nbsp;&nbsp; *Proficient:* ArcGIS, Git, LaTeX, R, SPSS, STATA, SQL.
 
 &nbsp;&nbsp; *Beginner:* Julia, Python, Stan, Tableau.
 
