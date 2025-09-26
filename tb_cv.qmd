@@ -71,6 +71,8 @@ csl: apa-cv.csl
 
 # Teaching experience
 
+Q-Step (quantitative social science) (University of Oxford, 2025)
+
 Politics of Sub-Saharan Africa [[Syllabus](https://www.dropbox.com/scl/fi/kdpz9gtizl9kawvx6ofcc/2025TT_pssa_syllabus.pdf?rlkey=9f8o4wifurtrib32oxmjdtffi&dl=0)] (University of Oxford, 2025)
 
 # Conference invites
