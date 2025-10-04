@@ -121,7 +121,6 @@ Ernest C. Mort Leadership Excellence Award 2018 (UC San Diego).
 
 Outstanding Resident 2017 (UC San Diego).
 
-
 # Service
 
 Journal reviewer: *Journal of Conflict Resolution,* 2025.
@@ -142,6 +141,10 @@ European Consortium for Political Research (Bayesian statistics, 2023).
 
 Oxford Spring School for Advanced Research Methods (Machine learning, 2023).
 
+# Consulting
+
+Africa analyst: *Knightsbridge Strategic Group,* 2025. 
+
 # Skills
 
 **Spoken languages**
@@ -150,9 +153,9 @@ Oxford Spring School for Advanced Research Methods (Machine learning, 2023).
 
 **Technical languages**
 
-&nbsp;&nbsp; *Proficient:* ArcGIS, Git, LaTeX, R, SPSS, STATA, SQL.
+&nbsp;&nbsp; *Proficient:* ArcGIS, Git, LaTeX, R, SPSS, STATA, SQL, Tableau.
 
-&nbsp;&nbsp; *Beginner:* Julia, Python, Stan, Tableau.
+&nbsp;&nbsp; *Beginner:* Julia, Python, Stan.
 
 **Infrastructures**
 
