@@ -36,9 +36,15 @@ csl: apa-cv.csl
 
 # Employment
 
+*London School of Economics*
+
+&nbsp;&nbsp; Research assistant \hfill 2025-present
+
 *University of Oxford*
 
-&nbsp;&nbsp; Research assistant \hfill 2022-present
+&nbsp;&nbsp; Tutor \hfill 2025-present
+
+&nbsp;&nbsp; Research assistant \hfill 2022-2024
 
 *Payments and Governance Research Program*
 
@@ -153,7 +159,7 @@ Africa analyst: *Knightsbridge Strategic Group,* 2025.
 
 **Technical languages**
 
-&nbsp;&nbsp; *Proficient:* ArcGIS, Git, LaTeX, R, SPSS, STATA, SQL, Tableau.
+&nbsp;&nbsp; *Proficient:* ArcGIS, Git, LaTeX, R, SPSS, STATA, SQL, Tableau, QGIS.
 
 &nbsp;&nbsp; *Beginner:* Julia, Python, Stan.
 
