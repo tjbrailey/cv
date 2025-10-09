@@ -1,0 +1,77 @@
+---
+author: Thomas J. Brailey
+title: PhD Student in Political Science
+format:
+  classic-cv-pdf: default
+cvfooter:
+  left: "tjbrailey.netlify.app"
+  right: "github.com/tjbrailey"
+cvcolor: 58748F #without `#`
+cvfont: raleway #texlive fonts like raleway,fetamont,gillius,comfortaa
+cvmeta:
+  - title: Status
+    left: PhD Student, Nuffield College
+    right: Oxford, United Kingdom
+  - title: Field
+    left: Security provision, sub-Saharan Africa, quantitative methods
+    right: tjbrailey.netlify.app
+  - title: Techs
+    left: R, Python, QGIS
+    right: thomasjbrailey@gmail.com
+execute:
+  echo: false
+---
+
+```{r}
+#| label: cvevents
+cvevents <- function(tbl, when, what, where, details) {
+    command_start <- "\\cvevent"
+
+    res <- paste0(
+        command_start, "{", tbl[[when]], "}",
+        "{", tbl[[what]], "}",
+        "{", tbl[[where]], "}"
+    )
+
+    tbl[[details]] <- sapply(tbl[[details]], function(x) paste0("{", x, "}", collapse = ","))
+    res <- paste0(res, "{", tbl[[details]], "}")
+
+    cat(res, sep = "\n")
+}
+```
+
+# Summary
+
+PhD student focused on security provision in sub-Saharan Africa, with expertise in quantitative research methods and geospatial analysis. Experienced in managing large-scale survey projects, processing complex datasets, and applying advanced statistical techniques. Skilled in R, Python, and QGIS, with a proven track record of academic excellence and externally funded research. Experienced tutor in African politics and quantitative social science, and adept at leading teams to adopt reproducible, collaborative data workflows.
+
+# Experience
+
+
+```{r}
+#| label: experience
+#| output: asis
+tibble::tribble(
+    ~role, ~institution, ~dates, ~details, ~tasks,
+    "Research assistant", "London School of Economics", "2025-present", "", c("Geo-referencing and digitizing administrative maps", "Using R/sf to visualize data collection process"),
+    "Research assistant", "University of Oxford", "2022-2024", "", c("Processed various large-N survey and observational datasets and conducted causal analysis in R", "Assisted with the publication of datasets and academic working papers"),
+    "Pre-Doctoral fellow", "Payments and Governance Research Program (J-PAL)", "2020-2022", "", c("Developed large-scale randomized control trials; analyzed and presented results to stakeholders", "Transitioned team to version control/GitHub/R workflow"),
+    "Research assistant", "Center for the Study of African Political Economy", "", "2018-2020", c("Developed a dataset of African election outcomes", "Analyzed data in R/ArcGIS"),
+    "Lab assistant", "Center for Peace and Security Studies", "2018-2020", "", c("Collected data on global military capabilities; implemented full pre-processing pipeline", "Visualized data for academic publications")
+) |>
+    cvevents(when = "dates", what = "role", where = "institution", details = "tasks")
+```
+
+# Education
+
+```{r }
+#| label: education
+#| output: asis
+tibble::tribble(
+    ~degree, ~uni, ~loc,
+    ~dates, ~details,
+    "PhD in Political Science", "University of Oxford", "Oxford, UK", "2024-present", c("Thesis title: The Provision of Security in Sub-Saharan Africa", "Funded by the Economic and Social Research Council (ESRC)"),
+    "MPhil in Comparative Government", "University of Oxford", "Oxford UK", "2022-2024", c("Funded by the Clarendon Scholarship", "Grade: distinction"),
+    "BSc in Data Analytics/Political Science", "UC San Diego", "San Diego, US", "2016-2020", "Grade: summa cum laude"
+) |>
+    cvevents(when = "dates", what = "degree", where = "loc", details = "details")
+```
