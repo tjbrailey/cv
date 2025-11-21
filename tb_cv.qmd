@@ -169,4 +169,29 @@ Africa analyst: *Knightsbridge Strategic Group,* 2025.
 
 # References
 
-Available upon request.
+\noindent
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{Dr. Robin Harding}
+
+Professor of Government
+
+Lady Margaret Hall
+
+University of Oxford
+
+\href{mailto:robin.harding@politics.ox.ac.uk}{robin.harding@politics.ox.ac.uk}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{Dr. Stathis Kalyvas}
+
+Gladstone Professor of Government
+
+All Souls College
+
+University of Oxford
+
+\href{mailto:stathis.kalyvas@politics.ox.ac.uk}{stathis.kalyvas@politics.ox.ac.uk}
+\end{minipage}
+
+\vspace{5pt}
