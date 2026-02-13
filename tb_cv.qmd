@@ -60,7 +60,7 @@ csl: apa-cv.csl
 
 &nbsp;&nbsp; Research assistant \hfill 2018-2019
 
-# Working papers as (co-) author
+# Working Papers as (Co-) Author
 
 ::: {#refs-self}
 :::
@@ -70,18 +70,20 @@ csl: apa-cv.csl
 ::: {#refs-other}
 :::
 
-# Publications as research assistant
+# Publications as Research Assistant
 
 ::: {#refs-ra}
 :::
 
-# Teaching experience
+# Teaching Experience
 
-Q-Step (quantitative social science) (University of Oxford, 2025)
+Q-Step (quantitative social science) (University of Oxford, 2026)
 
-Politics of Sub-Saharan Africa [[Syllabus](https://www.dropbox.com/scl/fi/kdpz9gtizl9kawvx6ofcc/2025TT_pssa_syllabus.pdf?rlkey=9f8o4wifurtrib32oxmjdtffi&dl=0)] (University of Oxford, 2025)
+Politics of Sub-Saharan Africa [[Syllabus](https://www.dropbox.com/scl/fi/kdpz9gtizl9kawvx6ofcc/2025TT_pssa_syllabus.pdf?rlkey=9f8o4wifurtrib32oxmjdtffi&dl=0)] (University of Oxford, 2025-2026)
 
-# Conference invites
+# Conference Invites
+
+European Political Science Society (Belfast, 2026).
 
 European Political Science Association (Madrid, 2025).
 
@@ -103,7 +105,7 @@ Southern California Research Conference (San Diego, 2019).
 
 Western Political Science Association (San Diego, 2019).
 
-# Awards and scholarships
+# Awards and Scholarships
 
 Grand Union DTP Scholar 2024-2027 (Economic and Social Research Council).
 
@@ -133,7 +135,7 @@ Journal reviewer: *Journal of Conflict Resolution,* 2025.
 
 Conference/workshop chair: *MPSA,* 2025.
 
-Conference/workshop discussant: *T.E. Lawrence Program on the Study of Conflict,* 2023-2025. *MPSA,* 2025.
+Conference/workshop discussant: *T.E. Lawrence Program on the Study of Conflict,* 2023-2026. *MPSA,* 2025.
 
 Organizer: *I4R Oxford Replication Games,* 2024.
 
