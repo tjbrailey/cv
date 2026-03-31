@@ -24,11 +24,13 @@ bibliography:
   other: other_pubs.bib
 validate-yaml: false
 csl: apa-cv.csl
+filters:
+  - bold-author.lua
 ---
 
 # Education
 
-*University of Oxford*, PhD, Politics \hfill 2024-present
+*University of Oxford*, PhD, Politics \hfill 2024-Present
 
 *University of Oxford*, MPhil, Comparative Government (*with distinction*) \hfill 2022-2024
 
@@ -38,34 +40,34 @@ csl: apa-cv.csl
 
 *London School of Economics*
 
-&nbsp;&nbsp; Research assistant \hfill 2025-present
+&nbsp;&nbsp; Research Assistant \hfill 2025-Present
 
 *University of Oxford*
 
-&nbsp;&nbsp; Tutor \hfill 2025-present
+&nbsp;&nbsp; Tutor \hfill 2025-Present
 
-&nbsp;&nbsp; Research assistant \hfill 2022-2024
+&nbsp;&nbsp; Research Assistant \hfill 2022-2024
 
 *Payments and Governance Research Program*
 
-&nbsp;&nbsp; Pre-doctoral fellow \hfill 2020-2022
+&nbsp;&nbsp; Pre-Doctoral Fellow \hfill 2020-2022
 
 *Center for the Study of African Political Economy*
 
-&nbsp;&nbsp; Research assistant \hfill 2018-2020
+&nbsp;&nbsp; Research Assistant \hfill 2018-2020
 
 *Center for Peace and Security Studies*
 
-&nbsp;&nbsp; Lab assistant \hfill 2019-2020
+&nbsp;&nbsp; Lab Assistant \hfill 2019-2020
 
-&nbsp;&nbsp; Research assistant \hfill 2018-2019
+&nbsp;&nbsp; Research Assistant \hfill 2018-2019
 
 # Working Papers as (Co-) Author
 
 ::: {#refs-self}
 :::
 
-# Other publications
+# Other Publications
 
 ::: {#refs-other}
 :::
@@ -77,33 +79,27 @@ csl: apa-cv.csl
 
 # Teaching Experience
 
-Q-Step (quantitative social science) (University of Oxford, 2026)
+Q-Step (quantitative social science) (University of Oxford, 2026).
 
-Politics of Sub-Saharan Africa [[Syllabus](https://www.dropbox.com/scl/fi/kdpz9gtizl9kawvx6ofcc/2025TT_pssa_syllabus.pdf?rlkey=9f8o4wifurtrib32oxmjdtffi&dl=0)] (University of Oxford, 2025-2026)
+Politics of Sub-Saharan Africa [[Syllabus](https://www.dropbox.com/scl/fi/kdpz9gtizl9kawvx6ofcc/2025TT_pssa_syllabus.pdf?rlkey=9f8o4wifurtrib32oxmjdtffi&dl=0)] (University of Oxford, 2025-2026).
 
-# Conference Invites
+# Conference and Workshop Invites
 
-European Political Science Society (Belfast, 2026).
+American Political Science Association (2021, 2026).
 
-European Political Science Association (Madrid, 2025).
+European Political Science Association (2025).
 
-Midwestern Political Science Association (Chicago, 2025).
+European Political Science Society (2026).
 
-Midwestern Political Science Association (Chicago, 2024).
+International Studies Association (2020, 2021).
 
-Political Studies Association (Virtual, 2023).
+Midwestern Political Science Association (2020, 2024, 2025).
 
-American Political Science Association (Virtual, 2021).
+Political Studies Association (2023).
 
-International Studies Association (Virtual, 2021).
+Southern California Research Conference (2019).
 
-Midwestern Political Science Association (Chicago, 2020, cancelled due to COVID-19).
-
-International Studies Association (Honolulu, 2020, cancelled due to COVID-19).
-
-Southern California Research Conference (San Diego, 2019).
-
-Western Political Science Association (San Diego, 2019).
+Western Political Science Association (2019).
 
 # Awards and Scholarships
 
@@ -127,31 +123,35 @@ Provost Honors 2016-2020 (UC San Diego).
 
 Ernest C. Mort Leadership Excellence Award 2018 (UC San Diego).
 
-Outstanding Resident 2017 (UC San Diego).
-
 # Service
 
-Journal reviewer: *Journal of Conflict Resolution,* 2025.
+Journal reviewer: *Journal of Conflict Resolution*, 2025.
 
-Conference/workshop chair: *MPSA,* 2025.
+Conference/workshop chair: *MPSA*, 2025.
 
-Conference/workshop discussant: *T.E. Lawrence Program on the Study of Conflict,* 2023-2026. *MPSA,* 2025.
+Conference/workshop discussant: *T.E. Lawrence Program on the Study of Conflict*, 2023-2026. *MPSA*, 2025.
 
-Organizer: *I4R Oxford Replication Games,* 2024.
+Organizer: *I4R Oxford Replication Games*, 2024.
+
+# Fieldwork
+
+South Africa (March 2026).
+
+Namibia (April 2026).
 
 # Training
 
-European Consortium for Political Research (Social network analysis, 2024).
+European Consortium for Political Research (Social Network Analysis, 2024).
 
-Oxford Spring School for Advanced Research Methods (Qualitative methods, 2024).
+Oxford Spring School for Advanced Research Methods (Qualitative Methods, 2024).
 
-European Consortium for Political Research (Bayesian statistics, 2023).
+European Consortium for Political Research (Bayesian Statistics, 2023).
 
-Oxford Spring School for Advanced Research Methods (Machine learning, 2023).
+Oxford Spring School for Advanced Research Methods (Machine Learning, 2023).
 
 # Consulting
 
-Africa analyst: *Knightsbridge Strategic Group,* 2025. 
+Africa analyst: *Knightsbridge Strategic Group*, 2025.
 
 # Skills
 
