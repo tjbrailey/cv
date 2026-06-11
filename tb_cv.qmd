@@ -1,7 +1,8 @@
 ---
 title: CV
 format:
-  quarto-cv-pdf: default
+  quarto-cv-pdf:
+    output_file: "C:/Users/thoma/Dropbox/github_private/website/static/files/tb_cv.pdf"
 author: Thomas J. Brailey
 date: last-modified
 #phone: +44 (0)7786 345 443 // +1 858 610 2437
@@ -15,7 +16,7 @@ github: tjbrailey # github account
 #orcid: 0000-0001-8538-8697 # orcid identifier
 #osf: c9ptf # osf five character id
 #twitter: twitter # twitter handle
-web: tjbrailey.netlify.app
+web: tjbrailey.org
 fontawesome: yes
 nocite: '@*'
 bibliography: 
@@ -38,31 +39,29 @@ filters:
 
 # Employment
 
-*London School of Economics*
+*International Organization for Migration*
 
-&nbsp;&nbsp; Research Assistant \hfill 2025-Present
+&nbsp;&nbsp; Data and Research Intern \hfill 2026
 
 *University of Oxford*
 
 &nbsp;&nbsp; Tutor \hfill 2025-Present
 
-&nbsp;&nbsp; Research Assistant \hfill 2022-2024
-
 *Payments and Governance Research Program*
 
 &nbsp;&nbsp; Pre-Doctoral Fellow \hfill 2020-2022
 
-*Center for the Study of African Political Economy*
+**Research Assistantships**
 
-&nbsp;&nbsp; Research Assistant \hfill 2018-2020
+&nbsp;&nbsp; *London School of Economics* \hfill 2025-Present
 
-*Center for Peace and Security Studies*
+&nbsp;&nbsp; *University of Oxford* \hfill 2022-2024
 
-&nbsp;&nbsp; Lab Assistant \hfill 2019-2020
+&nbsp;&nbsp; *Center for the Study of African Political Economy* \hfill 2018-2020
 
-&nbsp;&nbsp; Research Assistant \hfill 2018-2019
+&nbsp;&nbsp; *Center for Peace and Security Studies* \hfill 2018-2020
 
-# Working Papers as (Co-) Author
+# Publications and Working Papers
 
 ::: {#refs-self}
 :::
@@ -72,42 +71,29 @@ filters:
 ::: {#refs-other}
 :::
 
-# Publications as Research Assistant
-
-::: {#refs-ra}
-:::
-
 # Teaching Experience
 
-Q-Step (quantitative social science) (University of Oxford, 2026).
+Q-Step II (Data Analytics) (University of Oxford, 2027).
 
-Politics of Sub-Saharan Africa [[Syllabus](https://www.dropbox.com/scl/fi/kdpz9gtizl9kawvx6ofcc/2025TT_pssa_syllabus.pdf?rlkey=9f8o4wifurtrib32oxmjdtffi&dl=0)] (University of Oxford, 2025-2026).
+Q-Step I (Quantitative Social Science) (University of Oxford, 2026).
+
+Politics of Sub-Saharan Africa [[Syllabus](https://www.dropbox.com/scl/fi/kdpz9gtizl9kawvx6ofcc/2025TT_pssa_syllabus.pdf?rlkey=9f8o4wifurtrib32oxmjdtffi&dl=0)] (University of Oxford, 2025-2027).
 
 # Conference and Workshop Invites
 
-American Political Science Association (2021, 2026).
-
-European Political Science Association (2025).
-
-European Political Science Society (2026).
-
-International Studies Association (2020, 2021).
-
-Midwestern Political Science Association (2020, 2024, 2025).
-
-Political Studies Association (2023).
-
-Southern California Research Conference (2019).
-
-Western Political Science Association (2019).
+*Empirical Studies of Conflict* (2026), *American Political Science Association* (2021, 2026), *European Political Science Association* (2025, 2026), *European Political Science Society* (2026), *International Studies Association* (2020, 2021), *Midwestern Political Science Association* (2020, 2024, 2025), *Political Studies Association* (2023), *Southern California Research Conference* (2019), *Western Political Science Association* (2019).
 
 # Awards and Scholarships
+
+Winchester Grant (2026) (University of Oxford).
+
+Research Training and Support Grant (2026) (Economic and Social Research Council).
 
 Grand Union DTP Scholar 2024-2027 (Economic and Social Research Council).
 
 Event Participant Grant 2024 (European Consortium for Political Research).
 
-Cyril Foster Award 2024 (University of Oxford).
+Cyril Foster Award 2024, 2026 (University of Oxford).
 
 Merton College Research Grant 2023 (University of Oxford).
 
@@ -129,15 +115,15 @@ Journal reviewer: *Journal of Conflict Resolution*, 2025.
 
 Conference/workshop chair: *MPSA*, 2025.
 
-Conference/workshop discussant: *T.E. Lawrence Program on the Study of Conflict*, 2023-2026. *MPSA*, 2025.
+Conference/workshop discussant: *Empirical Studies of Conflict* (2026), *T.E. Lawrence Program on the Study of Conflict* (2023-2026), *MPSA* (2025).
 
 Organizer: *I4R Oxford Replication Games*, 2024.
 
 # Fieldwork
 
-South Africa (March 2026).
-
 Namibia (April 2026).
+
+South Africa (March 2026).
 
 # Training
 
@@ -151,7 +137,7 @@ Oxford Spring School for Advanced Research Methods (Machine Learning, 2023).
 
 # Consulting
 
-Africa analyst: *Knightsbridge Strategic Group*, 2025.
+Africa Analyst: *Knightsbridge Strategic Group*, 2025.
 
 # Skills
 
