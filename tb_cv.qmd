@@ -73,17 +73,19 @@ filters:
 
 # Teaching Experience
 
-Q-Step II (Data Analytics) (University of Oxford, 2027).
+Q-Step II (Data Analytics) (University of Oxford, Scheduled, 2027).
 
 Q-Step I (Quantitative Social Science) (University of Oxford, 2026).
 
 Politics of Sub-Saharan Africa [[Syllabus](https://www.dropbox.com/scl/fi/kdpz9gtizl9kawvx6ofcc/2025TT_pssa_syllabus.pdf?rlkey=9f8o4wifurtrib32oxmjdtffi&dl=0)] (University of Oxford, 2025-2027).
 
-# Conferences, Workshop, Visiting Appointments
+# Conferences, Workshops, Visiting Appointments
 
 **Visiting Appointments:** Department of Politics, New York University (2026).
 
-**Conferences:** *Junior Scholars in Quantitative Conflict* (2026), *Empirical Studies of Conflict* (2026), *American Political Science Association* (2021, 2026), *European Political Science Association* (2025, 2026), *European Political Science Society* (2026), *International Studies Association* (2020, 2021), *Midwestern Political Science Association* (2020, 2024, 2025), *Political Studies Association* (2023), *Southern California Research Conference* (2019), *Western Political Science Association* (2019).
+**Workshops:** *Virtual Workshop in Historical Political Economy* (Scheduled, 2027).
+
+**Conferences:** *Junior Scholars in Quantitative Conflict* (Scheduled, 2026), *Empirical Studies of Conflict* (Scheduled, 2026), *American Political Science Association* (2021, 2026), *European Political Science Association* (2025), *European Political Science Society* (2026), *International Studies Association* (2020, 2021), *Midwestern Political Science Association* (2020, 2024, 2025), *Political Studies Association* (2023), *Southern California Research Conference* (2019), *Western Political Science Association* (2019).
 
 # Awards and Scholarships
 
@@ -117,15 +119,15 @@ Ernest C. Mort Leadership Excellence Award 2018 (UC San Diego).
 
 **Conference/workshop chair:** *MPSA*, 2025.
 
-**Conference/workshop discussant:** *Empirical Studies of Conflict* (2026), *T.E. Lawrence Program on the Study of Conflict* (2023-2026), *MPSA* (2025).
+**Conference/workshop discussant:** *Empirical Studies of Conflict* (Scheduled, 2026), *T.E. Lawrence Program on the Study of Conflict* (2023-2026), *MPSA* (2025).
 
 **Organizer:** *I4R Oxford Replication Games*, 2024.
 
 # Fieldwork
 
-Namibia (April 2026).
+Namibia (2026).
 
-South Africa (March 2026).
+South Africa (2026).
 
 <!-- # Training
 
@@ -138,6 +140,8 @@ European Consortium for Political Research (Bayesian Statistics, 2023).
 Oxford Spring School for Advanced Research Methods (Machine Learning, 2023). -->
 
 # Consulting
+
+Consultant: *AI Safety Asia*, 2026.
 
 Africa Analyst: *Knightsbridge Strategic Group*, 2025.
 
