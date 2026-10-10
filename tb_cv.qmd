@@ -21,8 +21,10 @@ fontawesome: yes
 nocite: '@*'
 bibliography: 
   self: self_pubs.bib
+  working: working_pubs.bib
   ra: ra_pubs.bib
   other: other_pubs.bib
+  wip: wip_pubs.bib
 validate-yaml: false
 csl: apa-cv.csl
 filters:
@@ -61,12 +63,24 @@ filters:
 
 &nbsp;&nbsp; *Center for Peace and Security Studies* \hfill 2018-2020
 
-# Publications and Working Papers
+# Research
+
+## Peer-Reviewed Publications
 
 ::: {#refs-self}
 :::
 
-# Other Publications
+## Working Papers
+
+::: {#refs-working}
+:::
+
+## Works in Progress
+
+::: {#refs-wip}
+:::
+
+## Other Publications
 
 ::: {#refs-other}
 :::
@@ -83,7 +97,7 @@ Politics of Sub-Saharan Africa [[Syllabus](https://www.dropbox.com/scl/fi/kdpz9g
 
 **Visiting Appointments:** Department of Politics, New York University (2026).
 
-**Workshops:** *Virtual Workshop in Historical Political Economy* (Scheduled, 2027), *Princeton European Politics Graduate Student Workshop* (2026).
+**Workshops:** *EUI Migration Working Group* (Scheduled, 2027), *Virtual Workshop in Historical Political Economy* (Scheduled, 2027), *Princeton European Politics Graduate Student Workshop* (2026).
 
 **Conferences:** *Junior Scholars in Quantitative Conflict* (Scheduled, 2026), *Empirical Studies of Conflict* (Scheduled, 2026), *American Political Science Association* (2021, 2026), *European Political Science Association* (2025), *European Political Science Society* (2026), *International Studies Association* (2020, 2021), *Midwestern Political Science Association* (2020, 2024, 2025), *Political Studies Association* (2023), *Southern California Research Conference* (2019), *Western Political Science Association* (2019).
 
@@ -93,25 +107,25 @@ Winchester Grant (2026) (University of Oxford).
 
 Research Training and Support Grant (2026) (Economic and Social Research Council).
 
-Grand Union DTP Scholar 2024-2027 (Economic and Social Research Council).
+Grand Union DTP Scholar (2024-2027) (Economic and Social Research Council).
 
-Event Participant Grant 2024 (European Consortium for Political Research).
+Event Participant Grant (2024) (European Consortium for Political Research).
 
-Cyril Foster Award 2024, 2026 (University of Oxford).
+Cyril Foster Award (2024, 2026) (University of Oxford).
 
-Merton College Research Grant 2023 (University of Oxford).
+Merton College Research Grant (2023) (University of Oxford).
 
-Clarendon Scholar 2022-2024 (University of Oxford).
+Clarendon Scholar (2022-2024) (University of Oxford).
 
-BITSS Catalyst Grant Awardee 2021 (BITSS).
+BITSS Catalyst Grant Awardee (2021) (BITSS).
 
-Sanford Lakoff Award for the Most Outstanding Senior Thesis 2020 (UC San Diego).
+Sanford Lakoff Award for the Most Outstanding Senior Thesis (2020) (UC San Diego).
 
-Pi Sigma Alpha 2017-2020 (UC San Diego).
+Pi Sigma Alpha (2017-2020) (UC San Diego).
 
-Provost Honors 2016-2020 (UC San Diego).
+Provost Honors (2016-2020) (UC San Diego).
 
-Ernest C. Mort Leadership Excellence Award 2018 (UC San Diego).
+Ernest C. Mort Leadership Excellence Award (2018) (UC San Diego).
 
 # Service
 
@@ -153,11 +167,11 @@ Africa Analyst: *Knightsbridge Strategic Group*, 2025.
 
 **Technical languages**
 
-&nbsp;&nbsp; *Proficient:* ArcGIS, Git, LaTeX, R, SPSS, STATA, SQL, Tableau, QGIS.
+&nbsp;&nbsp; *Proficient:* ArcGIS, Git, LaTeX, R, SPSS, Stata, SQL, Tableau, QGIS.
 
 &nbsp;&nbsp; *Beginner:* Julia, Python, Stan.
 
-**Infrastructures**
+**Software**
 
 &nbsp;&nbsp; Amazon Web Services, Microsoft Office, Google Suite.
 
